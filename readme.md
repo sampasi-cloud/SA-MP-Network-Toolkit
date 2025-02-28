@@ -57,63 +57,66 @@ Yurii Krestovskiy
 <details>
   <summary>Нажмите, чтобы раскрыть</summary>
 
-    - **PACKET_ADVERTISE_SYSTEM** - Не будешь видеть рекламные сообщения системы.
-    - **PACKET_AIM_SYNC** - Не будешь видеть, куда целятся другие игроки.
-    - **PACKET_AUTH_KEY** - Не сможешь пройти аутентификацию на сервере.
-    - **PACKET_BROADCAST_PINGS** - Не будешь получать информацию о пингах других игроков.
-    - **PACKET_BULLET_SYNC** - Не будешь видеть выстрелы других игроков.
-    - **PACKET_CONNECTED_PONG** - Сервер может решить, что ты отключился.
-    - **PACKET_CONNECTION_ATTEMPT_FAILED** - Не узнаешь, что попытка подключения не удалась.
-    - **PACKET_CONNECTION_BANNED** - Не узнаешь, что ты забанен на сервере.
-    - **PACKET_CONNECTION_COOKIE** - Не сможешь установить защищенное соединение.
-    - **PACKET_CONNECTION_LOST** - Не получишь уведомление о потере соединения.
-    - **PACKET_CONNECTION_REQUEST** - Не сможешь инициировать подключение.
-    - **PACKET_CONNECTION_REQUEST_ACCEPTED** - Не узнаешь, что запрос на подключение принят.
-    - **PACKET_DETECT_LOST_CONNECTIONS** - Сервер не сможет определить, что ты все еще онлайн.
-    - **PACKET_DISCONNECTION_NOTIFICATION** - Не получишь уведомление об отключении.
-    - **PACKET_INITIALIZE_ENCRYPTION** - Не сможешь настроить шифрование соединения.
-    - **PACKET_INTERNAL_PING** - Сервер может считать, что у тебя проблемы с соединением.
-    - **PACKET_INVALID_PASSWORD** - Не узнаешь, что ввел неверный пароль.
-    - **PACKET_MARKERS_SYNC** - Не будешь видеть маркеры на карте.
-    - **PACKET_MODIFIED_PACKET** - Не получишь уведомление о модифицированных пакетах.
-    - **PACKET_NEW_INCOMING_CONNECTION** - Не узнаешь о новых подключениях к серверу.
-    - **PACKET_NO_FREE_INCOMING_CONNECTIONS** - Не узнаешь, что сервер переполнен.
-    - **PACKET_OPEN_CONNECTION_REPLY** - Не сможешь завершить процесс открытия соединения.
-    - **PACKET_OPEN_CONNECTION_REQUEST** - Не сможешь запросить открытие соединения.
-    - **PACKET_PASSENGER_SYNC** - Не будешь видеть пассажиров в транспорте.
-    - **PACKET_PING** - Сервер не сможет проверить твою задержку.
-    - **PACKET_PING_OPEN_CONNECTIONS** - Не будешь получать пинги от сервера.
-    - **PACKET_PLAYER_SYNC** - Не будешь видеть перемещения других игроков.
-    - **PACKET_PONG** - Сервер может решить, что ты отключился.
-    - **PACKET_RCON_COMMAND** - Не сможешь отправлять RCON команды.
-    - **PACKET_RCON_RESPONCE** - Не будешь получать ответы на RCON команды.
-    - **PACKET_RECEIVED_STATIC_DATA** - Не получишь статические данные от сервера.
-    - **PACKET_REMOTE_CONNECTION_LOST** - Не узнаешь о потере соединения с другими игроками.
-    - **PACKET_REMOTE_DISCONNECTION_NOTIFICATION** - Не получишь уведомление об отключении других игроков.
-    - **PACKET_REMOTE_EXISTING_CONNECTION** - Не узнаешь о существующих соединениях.
-    - **PACKET_REMOTE_NEW_INCOMING_CONNECTION** - Не узнаешь о новых игроках на сервере.
-    - **PACKET_REMOTE_STATIC_DATA** - Не получишь удаленные статические данные.
-    - **PACKET_REQUEST_STATIC_DATA** - Не сможешь запросить статические данные.
-    - **PACKET_RPC** - Не будешь получать удаленные вызовы процедур.
-    - **PACKET_RPC_MAPPING** - Не сможешь получить отображение RPC.
-    - **PACKET_RPC_REPLY** - Не получишь ответы на RPC запросы.
-    - **PACKET_RSA_PUBLIC_KEY_MISMATCH** - Не узнаешь о несоответствии RSA ключа.
-    - **PACKET_SECURED_CONNECTION_CONFIRMATION** - Не сможешь подтвердить защищенное соединение.
-    - **PACKET_SECURED_CONNECTION_RESPONSE** - Не получишь ответ на запрос защищенного соединения.
-    - **PACKET_SET_RANDOM_NUMBER_SEED** - Не сможешь синхронизировать генератор случайных чисел с сервером.
-    - **PACKET_SPECTATOR_SYNC** - Не будешь видеть наблюдателей.
-    - **PACKET_STATS_UPDATE** - Не будешь получать обновления статистики.
-    - **PACKET_TIMESTAMP** - Не будешь получать временные метки от сервера.
-    - **PACKET_TRAILER_SYNC** - Не будешь видеть прицепы у транспортных средств.
-    - **PACKET_UNOCCUPIED_SYNC** - Не будешь видеть незанятые транспортные средства.
-    - **PACKET_VEHICLE_SYNC** - Не будешь видеть движения транспортных средств.
-    - **PACKET_WEAPONS_UPDATE** - Не будешь получать обновления об оружии других игроков.
+  
+- **PACKET_ADVERTISE_SYSTEM** - Не будешь видеть рекламные сообщения системы.
+- **PACKET_AIM_SYNC** - Не будешь видеть, куда целятся другие игроки.
+- **PACKET_AUTH_KEY** - Не сможешь пройти аутентификацию на сервере.
+- **PACKET_BROADCAST_PINGS** - Не будешь получать информацию о пингах других игроков.
+- **PACKET_BULLET_SYNC** - Не будешь видеть выстрелы других игроков.
+- **PACKET_CONNECTED_PONG** - Сервер может решить, что ты отключился.
+- **PACKET_CONNECTION_ATTEMPT_FAILED** - Не узнаешь, что попытка подключения не удалась.
+- **PACKET_CONNECTION_BANNED** - Не узнаешь, что ты забанен на сервере.
+- **PACKET_CONNECTION_COOKIE** - Не сможешь установить защищенное соединение.
+- **PACKET_CONNECTION_LOST** - Не получишь уведомление о потере соединения.
+- **PACKET_CONNECTION_REQUEST** - Не сможешь инициировать подключение.
+- **PACKET_CONNECTION_REQUEST_ACCEPTED** - Не узнаешь, что запрос на подключение принят.
+- **PACKET_DETECT_LOST_CONNECTIONS** - Сервер не сможет определить, что ты все еще онлайн.
+- **PACKET_DISCONNECTION_NOTIFICATION** - Не получишь уведомление об отключении.
+- **PACKET_INITIALIZE_ENCRYPTION** - Не сможешь настроить шифрование соединения.
+- **PACKET_INTERNAL_PING** - Сервер может считать, что у тебя проблемы с соединением.
+- **PACKET_INVALID_PASSWORD** - Не узнаешь, что ввел неверный пароль.
+- **PACKET_MARKERS_SYNC** - Не будешь видеть маркеры на карте.
+- **PACKET_MODIFIED_PACKET** - Не получишь уведомление о модифицированных пакетах.
+- **PACKET_NEW_INCOMING_CONNECTION** - Не узнаешь о новых подключениях к серверу.
+- **PACKET_NO_FREE_INCOMING_CONNECTIONS** - Не узнаешь, что сервер переполнен.
+- **PACKET_OPEN_CONNECTION_REPLY** - Не сможешь завершить процесс открытия соединения.
+- **PACKET_OPEN_CONNECTION_REQUEST** - Не сможешь запросить открытие соединения.
+- **PACKET_PASSENGER_SYNC** - Не будешь видеть пассажиров в транспорте.
+- **PACKET_PING** - Сервер не сможет проверить твою задержку.
+- **PACKET_PING_OPEN_CONNECTIONS** - Не будешь получать пинги от сервера.
+- **PACKET_PLAYER_SYNC** - Не будешь видеть перемещения других игроков.
+- **PACKET_PONG** - Сервер может решить, что ты отключился.
+- **PACKET_RCON_COMMAND** - Не сможешь отправлять RCON команды.
+- **PACKET_RCON_RESPONSE** - Не будешь получать ответы на RCON команды.
+- **PACKET_RECEIVED_STATIC_DATA** - Не получишь статические данные от сервера.
+- **PACKET_REMOTE_CONNECTION_LOST** - Не узнаешь о потере соединения с другими игроками.
+- **PACKET_REMOTE_DISCONNECTION_NOTIFICATION** - Не получишь уведомление об отключении других игроков.
+- **PACKET_REMOTE_EXISTING_CONNECTION** - Не узнаешь о существующих соединениях.
+- **PACKET_REMOTE_NEW_INCOMING_CONNECTION** - Не узнаешь о новых игроках на сервере.
+- **PACKET_REMOTE_STATIC_DATA** - Не получишь удаленные статические данные.
+- **PACKET_REQUEST_STATIC_DATA** - Не сможешь запросить статические данные.
+- **PACKET_RPC** - Не будешь получать удаленные вызовы процедур.
+- **PACKET_RPC_MAPPING** - Не сможешь получить отображение RPC.
+- **PACKET_RPC_REPLY** - Не получишь ответы на RPC запросы.
+- **PACKET_RSA_PUBLIC_KEY_MISMATCH** - Не узнаешь о несоответствии RSA ключа.
+- **PACKET_SECURED_CONNECTION_CONFIRMATION** - Не сможешь подтвердить защищенное соединение.
+- **PACKET_SECURED_CONNECTION_RESPONSE** - Не получишь ответ на запрос защищенного соединения.
+- **PACKET_SET_RANDOM_NUMBER_SEED** - Не сможешь синхронизировать генератор случайных чисел с сервером.
+- **PACKET_SPECTATOR_SYNC** - Не будешь видеть наблюдателей.
+- **PACKET_STATS_UPDATE** - Не будешь получать обновления статистики.
+- **PACKET_TIMESTAMP** - Не будешь получать временные метки от сервера.
+- **PACKET_TRAILER_SYNC** - Не будешь видеть прицепы у транспортных средств.
+- **PACKET_UNOCCUPIED_SYNC** - Не будешь видеть незанятые транспортные средства.
+- **PACKET_VEHICLE_SYNC** - Не будешь видеть движения транспортных средств.
+- **PACKET_WEAPONS_UPDATE** - Не будешь получать обновления об оружии других игроков.
 
 </details>
+
 
 ## Блокировка входящих RPC (incomingRPC)
 <details>
   <summary>Нажмите, чтобы раскрыть</summary>
+
 - **RPC_SCRAPPLYANIMATION** - Не будешь видеть анимации других игроков.
 - **RPC_SCRATTACHCAMERATOOBJECT** - Камера не будет прикрепляться к объектам.
 - **RPC_SCRATTACHOBJECTTOPLAYER** - Не будешь видеть объекты, прикрепленные к игрокам.
@@ -228,6 +231,7 @@ Yurii Krestovskiy
 ## Блокировка исходящих пакетов (outcomingPacket)
 <details>
   <summary>Нажмите, чтобы раскрыть</summary>
+
 - **PACKET_ADVERTISE_SYSTEM** - Не сможешь отправлять рекламные сообщения.
 - **PACKET_AIM_SYNC** - Сервер не будет знать, куда ты целишься.
 - **PACKET_AUTH_KEY** - Не сможешь аутентифицироваться на сервере.
@@ -284,6 +288,7 @@ Yurii Krestovskiy
 ## Блокировка исходящих RPC (outcomingRPC)
 <details>
   <summary>Нажмите, чтобы раскрыть</summary>
+  
 - **RPC_CHAT** - Не сможешь отправлять сообщения в чат.
 - **RPC_CLICKPLAYER** - Не сможешь кликать по игрокам.
 - **RPC_CLICKTEXTDRAW** - Не сможешь кликать по текстдравам.
